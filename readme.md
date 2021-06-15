@@ -1,4 +1,4 @@
-[![Board Status](https://dev.azure.com/michaelcantu/046bc579-329d-430e-8b14-ea82a28c64ab/15fd5090-5031-4b2c-afe0-156e93b78f51/_apis/work/boardbadge/96a4f491-c0b7-4a5c-a200-b2ee359c8f63)](https://dev.azure.com/michaelcantu/046bc579-329d-430e-8b14-ea82a28c64ab/_boards/board/t/15fd5090-5031-4b2c-afe0-156e93b78f51/Microsoft.RequirementCategory)
+[![Board Status](https://dev.azure.com/michaelcantu/046bc579-329d-430e-8b14-ea82a28c64ab/15fd5090-5031-4b2c-afe0-156e93b78f51/_apis/work/boardbadge/636aac8e-fe0e-49eb-943a-cbf547cf0398?columnOptions=1)](https://dev.azure.com/michaelcantu/046bc579-329d-430e-8b14-ea82a28c64ab/_boards/board/t/15fd5090-5031-4b2c-afe0-156e93b78f51/Custom.98f10bb8-da6b-4ca5-8366-1c680e9fa3b3/)
 
 Calculator.js: a node.js Demonstration Project
 ==============================================
