@@ -11,11 +11,11 @@ jobs:
     steps:
       - uses: danhellem/github-actions-issue-to-work-item@master
         env:
-          ado_token: "${{ secrets.AZURE_PERSONAL_ACCESS_TOKEN }}"
-          github_token: "${{ secrets.PERSONAL_TOKEN }}"
+          ado_token: '${{ secrets.AZURE_PERSONAL_ACCESS_TOKEN }}'
+          github_token: '${{ secrets.PERSONAL_TOKEN }}'
           ado_organization: '${{ secrets.ADO_ORGANIZATION }}'
           ado_project: '${{ secrets.ADO_PROJECT }}'
-          ado_wit: 'GitHub Issues' 
+          ado_wit: 'GitHub Issue' 
           ado_new_state: 'New'
           ado_close_state: 'Closed'
           ado_active_state: 'Active'  
