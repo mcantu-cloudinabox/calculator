@@ -1,0 +1,18 @@
+name: Dependabot Check - Azure Boards
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  alert:
+    runs-on: ubuntu-latest
+    if: github.event.actor == 'dependabot[bot]'
+    steps:
+    - uses: peckjon/vulnerability-to-azure-board@master
+      env:
+        GITHUB_TOKEN: '${{ secrets.PERSONAL_TOKEN }}'
+        AZURE_PERSONAL_ACCESS_TOKEN: '${{ secrets.AZURE_PERSONAL_ACCESS_TOKEN }}'
+        ORG_URL: '${{ secrets.ORG_URL }}'
+        PROJECT_NAME: '${{ secrets.ADO_PROJECT }}'
