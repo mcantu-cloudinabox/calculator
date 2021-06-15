@@ -1,7 +1,7 @@
 name: Dependabot Check - Azure Boards
 
-on:
-  pull_request:
+'on':
+  pull_request_target: 
     branches:
       - master
 
