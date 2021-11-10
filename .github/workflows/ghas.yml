@@ -32,7 +32,7 @@ jobs:
 #         config-file: ./.github/config/code-scanning.yml
 #         repo-token: ${{ secrets.GITHUB_TOKEN }}
 #         external-repository-token: ${{ secrets.GITHUB_TOKEN }}
-below)
+#below)
     - name: Autobuild
       uses: github/codeql-action/autobuild@v1
 
