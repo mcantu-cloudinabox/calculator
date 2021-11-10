@@ -29,10 +29,10 @@ jobs:
       uses: github/codeql-action/init@v1
       with:
         languages: ${{ matrix.language }}
-#         config-file: ./.github/config/code-scanning.yml
-#         repo-token: ${{ secrets.GITHUB_TOKEN }}
-#         external-repository-token: ${{ secrets.GITHUB_TOKEN }}
-#below)
+        config-file: ./.github/config/code-scanning.yml
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        external-repository-token: ${{ secrets.GITHUB_TOKEN }}
+
     - name: Autobuild
       uses: github/codeql-action/autobuild@v1
 
