@@ -29,7 +29,7 @@ jobs:
       uses: github/codeql-action/init@v1
       with:
         languages: ${{ matrix.language }}
-        config-file: ./.github/config/code-scanning.yml
+        config-file: ./.github/codeql/codeql-config.yml
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         external-repository-token: ${{ secrets.GITHUB_TOKEN }}
 
